@@ -52,8 +52,9 @@ dependencies {
     implementation(libs.androidx.runtime.android)
     implementation(libs.androidx.activity.compose)
 
-    implementation(libs.io.insert.koin.core)
-    implementation(libs.io.insert.koin.android)
+    implementation(libs.koin.core)
+    implementation(libs.koin.android)
+    implementation(libs.koin.compose)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
