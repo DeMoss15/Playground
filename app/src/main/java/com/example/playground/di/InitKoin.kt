@@ -1,6 +1,6 @@
 package com.example.playground.di
 
-import com.example.playground.articles.impl.di.articlesDIModule
+import com.example.playground.articles.di.articlesDIModule
 import com.example.playground.presentation.EditorViewModel
 import com.example.playground.user.di.userDIModule
 import org.koin.core.context.startKoin

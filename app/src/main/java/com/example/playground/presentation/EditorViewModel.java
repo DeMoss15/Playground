@@ -2,7 +2,8 @@ package com.example.playground.presentation;
 
 import androidx.lifecycle.ViewModel;
 
-import com.example.playground.user.impl.PublishArticleUC;
+import com.example.playground.StubData;
+import com.example.playground.articles.usecase.PublishArticleUC;
 
 public class EditorViewModel extends ViewModel {
 
@@ -26,7 +27,5 @@ public class EditorViewModel extends ViewModel {
     public void publishArticle() {
 
     }
-
-    // TODO create task with modules
 
 }

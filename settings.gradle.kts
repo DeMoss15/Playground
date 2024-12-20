@@ -21,7 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Playground"
 include(":app")
-include(":feature_modules:user:api")
-include(":feature_modules:user:impl")
-include(":feature_modules:articles:api")
-include(":feature_modules:articles:impl")
+include(":feature_modules:user")
+include(":feature_modules:articles")
